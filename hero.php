@@ -50,8 +50,8 @@ $locations = getUniqueLocations($conn);
       <div class="trip-types">
         <input type="radio" id="one-way" name="trip-type" value="one-way" required />
         <label for="one-way">One-way</label>
-        <input type="radio" id="round-trip" name="trip-type" value="round-trip" />
-        <label for="round-trip">Round-trip</label>
+        <!-- <input type="radio" id="round-trip" name="trip-type" value="round-trip" /> -->
+        <!-- <label for="round-trip">Round-trip</label> -->
       </div>
 
       <div class="trip-route">
@@ -88,7 +88,7 @@ $locations = getUniqueLocations($conn);
       <button type="button" id="manageBookingsBtn">Manage my bookings</button>
     </form>
   </div>
-  <a href="admin.php" class="back-link" style="margin-left: 50px;">Back to navigation page</a>
+  <a href="index.html" class="back-link" style="margin-left: 50px;">Back to navigation page</a>
 </main>
 <footer id="about-section">
   <div class="footerBoxes">
